@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact &amp; About Us - Babe Jakarta</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Lexend:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#404943",
+                        "surface-bright": "#fff8f6",
+                        "surface-container-high": "#ffe2db",
+                        "surface-container": "#ffe9e4",
+                        "surface-variant": "#fadcd5",
+                        "inverse-surface": "#3e2c28",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#99d3b1",
+                        "on-tertiary-fixed-variant": "#3f4949",
+                        "on-tertiary-container": "#a6b0b0",
+                        "surface": "#fff8f6",
+                        "tertiary-fixed": "#dae4e4",
+                        "primary": "#00331e",
+                        "on-primary-container": "#80ba99",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-primary": "#99d3b1",
+                        "on-secondary-fixed-variant": "#00522b",
+                        "on-tertiary-fixed": "#141d1e",
+                        "surface-container-low": "#fff1ed",
+                        "on-surface": "#271814",
+                        "surface-tint": "#31694c",
+                        "primary-fixed": "#b4f0cc",
+                        "inverse-on-surface": "#ffede9",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#3a4344",
+                        "on-primary-fixed": "#002112",
+                        "surface-container-highest": "#fadcd5",
+                        "surface-dim": "#f1d4cd",
+                        "secondary-fixed": "#98f7b5",
+                        "secondary-fixed-dim": "#7cda9b",
+                        "error-container": "#ffdad6",
+                        "secondary": "#006d3b",
+                        "outline-variant": "#c0c9c1",
+                        "secondary-container": "#98f7b5",
+                        "on-secondary": "#ffffff",
+                        "outline": "#707972",
+                        "on-secondary-fixed": "#00210e",
+                        "on-secondary-container": "#01743f",
+                        "primary-container": "#0e4b31",
+                        "tertiary-fixed-dim": "#bec8c8",
+                        "on-primary-fixed-variant": "#165036",
+                        "background": "#fff8f6",
+                        "on-background": "#271814",
+                        "tertiary": "#242d2d",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xs": "4px",
+                        "lg": "48px",
+                        "margin-mobile": "16px",
+                        "base": "8px",
+                        "xl": "80px",
+                        "margin-desktop": "64px",
+                        "md": "24px",
+                        "sm": "12px",
+                        "gutter": "20px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "headline-md": ["Lexend"],
+                        "display-lg": ["Lexend"],
+                        "display-lg-mobile": ["Lexend"],
+                        "headline-sm": ["Lexend"],
+                        "label-sm": ["Be Vietnam Pro"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "label-md": ["Be Vietnam Pro"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(14,75,49,0.08)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<a class="font-display-lg text-display-lg-mobile md:text-display-lg font-bold text-primary dark:text-primary-fixed-dim" href="#">Babe</a>
+<!-- Desktop Nav -->
+<div class="hidden md:flex items-center gap-md">
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg px-4 py-2 font-label-md text-label-md" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg px-4 py-2 font-label-md text-label-md" href="#">Menu</a>
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 font-label-md text-label-md" href="#">About</a>
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg px-4 py-2 font-label-md text-label-md" href="#">Gallery</a>
+</div>
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hover:bg-primary-container">
+                Pesan Sekarang
+            </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary p-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[100px] pb-xl px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto w-full">
+<!-- Hero Section -->
+<section class="mb-xl text-center md:text-left">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-sm">Cerita Kami &amp; Lokasi</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Menemukan oase ketenangan di tengah hiruk-pikuk Senopati. Babe Jakarta adalah tempat di mana kopi berkualitas bertemu dengan suasana botani yang menyegarkan.</p>
+</section>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Map Card (Large Span) -->
+<div class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-2xl shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] overflow-hidden relative min-h-[400px]">
+<img alt="Map" class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply" data-alt="A beautifully stylized, minimalist digital map of the Senopati district in Jakarta. The map is designed with a light-mode aesthetic, featuring soft cream surfaces for land and very pale green lines for major roads, reflecting a lush botanical brand identity. A prominent, elegant deep green map pin marks the location of Cafe Babe amidst a subtly bustling urban grid. The overall mood is sophisticated, clean, and inviting, suitable for a high-end cafe's contact page." data-location="Senopati, Jakarta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQUtPCReHfkXuforsdjwJQBfEvL1VAMXZAku0nuSb9Mj7OrEYRaK3z1iuVXaVmAwA8flksaARXQRD2HCbdXazzTHWT73czcSRKQtJEglprr2NcGRKmQB_ycEvpULFXd8VR9qPG3NXjlk_xyG_jqmsjXsy7h9prJvb7jSgu0kScMWnnRHU_nfmTEXfKGWoSL2BNDNmlV9YWI2Zdk9_s4CXZXaKrNhMjVV_nhC_KhqkQmwutiK2fxuC0yKHdyUbhnCkk1xmeQMx4ns0"/>
+<div class="absolute bottom-md left-md right-md glass-panel p-md rounded-xl">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-xs">Senopati Sanctuary</h3>
+<p class="font-body-md text-body-md text-on-surface">Jl. Senopati Raya No. 45, Kebayoran Baru, Jakarta Selatan, 12190</p>
+</div>
+</div>
+<!-- Info Cards (Side Column) -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-gutter">
+<!-- Hours Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-md shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex-grow flex flex-col justify-center">
+<div class="flex items-center gap-sm mb-md">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">schedule</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Jam Operasional</h3>
+</div>
+<ul class="space-y-sm">
+<li class="flex justify-between font-body-md text-body-md text-on-surface-variant border-b border-primary/10 pb-sm">
+<span>Senin - Jumat</span>
+<span class="font-medium text-primary">08.00 - 22.00</span>
+</li>
+<li class="flex justify-between font-body-md text-body-md text-on-surface-variant pt-xs">
+<span>Sabtu - Minggu</span>
+<span class="font-medium text-primary">08.00 - 23.00</span>
+</li>
+</ul>
+</div>
+<!-- Social Card -->
+<a class="bg-primary rounded-2xl p-md shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] text-on-primary hover:bg-primary-container transition-colors group flex items-center justify-between" href="#">
+<div>
+<p class="font-label-md text-label-md text-on-primary/80 mb-xs">Ikuti Perjalanan Kami</p>
+<h3 class="font-headline-sm text-headline-sm font-bold">@BabeJakarta</h3>
+</div>
+<span class="material-symbols-outlined text-4xl group-hover:translate-x-1 transition-transform" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
+</a>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[40px] bg-surface-container-highest dark:bg-inverse-surface border-t border-outline-variant/30 mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-xl max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-xl">
+<div class="col-span-1 md:col-span-2">
+<h2 class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed-dim mb-sm">Babe</h2>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container max-w-sm mb-md">
+                    © 2024 Babe Jakarta. Senopati's Finest Botanical Sanctuary.
+                </p>
+</div>
+<div class="col-span-1">
+<h3 class="font-label-md text-label-md font-bold text-primary mb-sm uppercase tracking-wider">Tautan Cepat</h3>
+<ul class="space-y-sm">
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#">Instagram</a></li>
+<li><a class="font-body-md text-body-md text-primary font-bold transition-colors opacity-80 hover:opacity-100" href="#">Location</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#">Opening Hours</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>

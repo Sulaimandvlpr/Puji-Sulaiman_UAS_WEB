@@ -1,0 +1,142 @@
+export const images = {
+  hero:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuBetmzGe0FMIMPohObgVfj9mYK1qLyWTUVU4U5MoeklpbmLw4DoFK96TI6OEMkcDe3wY397zwymsvPkkDxR516m6xuqucMhR82ahvkL7c5krG7guuvegzI6-uTK4rLvJMyz6PHQv5yaw_g8pJs5NImk9yC_pxv3yZ4yUmHt6pdqWk1fxME5oDmE1WdpnMoCeBkEmNH00P2g5zWyFRdxRFHrovrocsTssV6Ba7tWpb_l4eXxWOn6gunjA7O2fMfuymWm7mAGT_sZJlc',
+  senopati:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuALXnePmd8k9ZB3dnB7dhswr0JP0x9o5PBUwVoxNKM9bSSGisC9LCrVmbCjSCebA8eWT0nYsVshO0crKBkXm10AGmB8q6S-T9NvmHBEezsuhDOoSkZ8xiab3hYDhTh3Yf2z6hNfSx0oU5_mL3huq7CmLEgo3ysPxCOz_bESoYqzOacjGaGY_8SUhDCyR1r9ifBwJFNTZc9zqOSMQks5xHv4GI5Xq37O6WbkuJ0EDR_-FXd3AOMyapSEgWgAet_kNxBO3yV0l6pCeFc',
+  menuHeader:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuCVMY8AKzwXqtmc6BMdrGMpZSXeOeuJmoYNoXkJZiPvml1byiZCy6R4Qgzvk44Ba-sDnNG-a_uzMQCsX1u-wRhZIS-thrDaOaXLFkPDSjF0I0f4-Bnr7e9b0HgmP1HZuH6Q50i511AMnWyXz_RElU4H1i0P-8g7d6sh6X2HL1uhEQSojytTlW-p1rOoPdZjp3jcJ1_Hu5ho9DhorpEFmH0_ms3AVz_MNR39Kq5KOXKTrzVU_i9fO0RseB49oNkmV0nuTiuPqOTgTJ0',
+  map: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAQUtPCReHfkXuforsdjwJQBfEvL1VAMXZAku0nuSb9Mj7OrEYRaK3z1iuVXaVmAwA8flksaARXQRD2HCbdXazzTHWT73czcSRKQtJEglprr2NcGRKmQB_ycEvpULFXd8VR9qPG3NXjlk_xyG_jqmsjXsy7h9prJvb7jSgu0kScMWnnRHU_nfmTEXfKGWoSL2BNDNmlV9YWI2Zdk9_s4CXZXaKrNhMjVV_nhC_KhqkQmwutiK2fxuC0yKHdyUbhnCkk1xmeQMx4ns0',
+  kopiSusu:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuAZgO55FApPGwN5Tp7SZXUGoWjvaUSi9Y6k3aTD2kh0urFKxEeljjhSkFyq--uHNAr-udA4d2K70-wNNjdnm7FmcTZliNB6MjSbwoVeSPVbEAO8qetk-vYB7SxKYrbUuWm4L864frgX28g5o8-hvZFXMfRig2Px6bZe9UJuR-bXivdhsZIXyuSOBjdZ8bhvT00dhaftoJ-MtgeEe8jrNgUxGoh6JKNFN8P4y67QtIWRfHsv2uPA8yCfehbz57Warp6-2fz7az3Fmag',
+  americano:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuCCLJ7oxEjxfmpVm_6tscgWWxPYnR0RsIfN1VwlAOq5O1yT9gzpILj26mOLxdKo6VNPKhidyHTizB-eC_K4Caa6M_8W9BOcNN5qM1zyl2SoeAt0MoXiVMU6xZ41d6It3qZ6uru0rAhHMFsxUZEybQmn0rM6NrwkV_kF9HhOcY1B9hCnzu9Qa2yMY94WhtUANfqcxN1u8dOWKFqeEkvGwF7HlJUcyo_e-2UvJv1Lgyf6lBLNeOEzcgBwxZ1HrRNbx6bUy8oh2b9mfC0',
+  coldBrew:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuB-ox7jgGHnBMr1Gm-6VhPalM22jf0ezLxCchDgX0J3XXk37-17z3fPD05nN8Djx70QsZiW5ZZwlC_xXbf9A0M7r-KOOiiMaNykNvcHZWS6y-AnE8mFjevtROz-dGIKntoaqfTbNgiSv42GDuf5zQGIH3avTP9ZHiobMkz-srQ9QZEp5Hq04eEJ_68glhaeDuVryVnnFAf_iUho5jwhE4FLcOjfbs3jHpP72P9GVYlBWUhNdMC7nFDK2D7JzEYbD38jWfUozwijYFY',
+  icedLatte:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuAki69zk0GJxKbmQc9FV9eW3VPuNMyGSUyjSKFYtHiYx-Jvu-1xYpaZDUymPiuslfSdl7Br7_D3n2mMjMMi1zla3fxx0cMKFa7BajnUgOpa8ObDu64RrHTVHedzG0FX_bMm-Mc0PKYb3K3u5qNridOmbF34JqUSQ714DXap9RIUfY6TEWpRFlWTy-AHcu-v2qTEtKpBpy-ozWbWpwOmmNobkH3yY1pw6mGtgOu-2mkBX2kQO2YkOEUFc55EcM1a7bPIvgkA2K5e8mo',
+  matcha:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuDzYZX_1NtF-YAk1UBr94HHQxr0g_6DtYuVWz-oV8hsqzYDjT7YQTAXxrq0-FUQN6qSKVcDgNWnv_vJi87P1zUNm49ReJS8sbt9BsN_fudo1il2aa8fx8tCg6p7XL1AhnlgxZ4NtVLkEsmy3P8vQTK83ArBkcUp5y1EArw6cQXd5kaGur_hi8G17X6hq7gNA9iTuh8VgzbzhNuehZqb3yrycojVJ1R8TGYi23pz1RFy_2sM07qrpSX2OGo6Q7IFeZ_9aGE0rqfkKrY',
+  croissant:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuDi6GCmIRGsxzbjDBm-4xLM5_Wwe_h-Rur4Kz43-KFKUcHTTLhWgEzqHTrMVvD3vDAITRkwBBIFD5NktVWKr6efIqmu6-uomHMXYswpwlFOrU8N2we4DoR3bmIzXKba1T22zODfyTodimD2jjwAdVjJiqQEz-i8YCav4pafHj0LDmufVfGUZ24pBjDdW3EQ8ssc8YkzByEVJR8H-wnIqeAa_S26wIPO-voo9oBrPl4Shj9ztjLJ9gauG4datS2UmHB3WQP9hcTEUfE',
+  lavaCake:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuDIoNt3BkBKJftSBCDuUGM1tFC2OuAf2J4X-cfyOFcoJriyIuL_MkSv_3tIsiJfb3CI8X6061vTfdzZd4pXbeSoWXXD__kIIPJILa-JgMiiU6SrIISiCsK46ahqqkDzoApqrrphgLJTXkYrqoYQW-a_9H7EFu5C-Kr2gCPMvIjMGNmfUkfz2iWf3VfmPI_tM97imHHCng1eL5A8l-Bx7W00z_XCsyJvaOhAaWXD3qtYCjouvGnU7-IqZamr0uIlt0q6FAnbt0j10tY',
+  truffleFries:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuAsKcM0fXZsCxbbiqhk7tcTNhQ8s4euWAndKYhr4crxuA0J2-j0PpR_OXsPS1e250_XTqCibQB5CxehVP2jNSPlpL6iwbcSrYbqVKXzTsts0epBh9bjlJZFlnyoc_LNKvAb4AqdIBjuUJ28Pt8D6udkz24AwfkFdhUsuAv4O5y45_DgSL3iioazfdqZfmlG0sePIc-Y06cQFZ6005JE0IYYH2nDjemE7SoL0Max3HROEmM9_uxmaUKfWJXG7pWu8Js8xr2XWHqbDxs',
+  avocadoToast:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuCs3z362W7K0YdN87PvIco_BU323_rwEVK34F2YGoSRZj8pFZlO_jmYnaPKZGlATihaRnqbwORXsIYOl9Ms1sgHTQiGwWdkyu5fqu5jzthZeyb-OhRHf3Qebfd0JYNo67PqAXzllg_F_yGEEWUr9N4hCDdI_3XYdytouPRRytT-myIpL3vwFSXtnwCuoyILQAEfVkDAnRfwQUYqSKaEvZIB6vQhb7QjdIelHwvGQT-ghXh2dDV-foc_82mQfronq-oMWEJIgCacuB0',
+  matchaLatteArt:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuAfAw5Hlv6w0LiA7tk6qskZ0LDf_fdW7JZyuQIjTUpFGXClQ3qHEZelIA2q9XpIeldNCZ7aeEQ9onizixVz_tNpkPBuaadU1DAKNgEU9fMMLW52aWYA2UzSj5oLJpxJNjxCpAalWEFe07H7ASyZtDUthSjWVmmxiwbL5BRf2N9F1DdyJChP9Idpdhlnmv_mpcPlDBMLY1GEKMAVC57I81jiyhD-slkZ3ZkW0l05Sz814p70uH_ep34i2DCghpVpRoZCAK_DTNPMees',
+  botanicalInterior:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuB_CsTEtcjspBrilsEFG0eUMH-CMojIsWSG2PYKL1wdX_MPAlopJkB1sM30rgqDy0Lf5-Sfwa_zjYr5WL85i8OdvatL4wljmzwzTkpOEu7Ai4SnkFB3WYWComZt7uzGlXiZOBS7IvBvd1_09PKYqxFB5pMjxU4EnkskK7Z16jrbF9EYMUAx0WELPtLOlrV2JtIqQGekiJZLNmoklVjNratpzNAFfCpNeJOhB444IQ_ANrbCfSJVcKCrGgrS64gXZBtfJi5U-W1Q1Gc',
+  coffeeCroissant:
+    'https://lh3.googleusercontent.com/aida-public/AB6AXuASIH5itMpCUds7bgxozMCMcJyUi9zY0hRQicDDVXa_qyg9fCDBON53cTPv2T6-uMCJ5pq8nJarXs6-LLFRaR1fxE2JYt4-_ByBOKpDbEOgrrlFXxL1mA86yAhBZbtEgPoTbBs913yHYYpm_Yq016t2DfxnIpw4y-PXAxPbJvM0LCyISTcgMn9xT6fe9DwtpO6DBvqJV27r1NY3xh3v_LgkOs0Ln6wYlQG_qTmv7kib9S5mzZqisFWxzW6qibCWYCFR2kK7DsGYbzc',
+}
+
+export const menuCategories = [
+  { id: 'all', label: 'Semua Menu' },
+  { id: 'kopi', label: 'Kopi' },
+  { id: 'minuman-khas', label: 'Minuman Khas' },
+  { id: 'kue-roti', label: 'Kue & Roti' },
+  { id: 'makanan-utama', label: 'Makanan Utama' },
+]
+
+export const menuSections = [
+  {
+    id: 'kopi',
+    title: 'Kopi (Berbasis Espresso)',
+    layout: 'grid',
+    items: [
+      {
+        name: 'Kopi Susu Gula Aren',
+        description:
+          'Perpaduan espresso pekat dengan manisnya gula aren murni lokal, menghasilkan tekstur creamy yang sempurna.',
+        price: '25k',
+        image: images.kopiSusu,
+        badge: 'Bestseller',
+      },
+      {
+        name: 'Classic Americano',
+        description:
+          'Ekstraksi espresso ganda murni yang dipadukan dengan air panas, menonjolkan aroma biji kopi pilihan.',
+        price: '20k',
+        image: images.americano,
+      },
+      {
+        name: 'Cold Brew Botanical',
+        description: 'Kopi seduh dingin selama 12 jam dengan aroma botani yang menyegarkan.',
+        price: '32k',
+        image: images.coldBrew,
+      },
+    ],
+  },
+  {
+    id: 'minuman-khas',
+    title: 'Minuman Khas',
+    layout: 'featured',
+    items: [
+      {
+        name: 'Signature Iced Latte',
+        description:
+          'Susu segar dingin yang dipadukan dengan sentuhan espresso blend khas Babe. Memberikan keseimbangan sempurna antara rasa kopi yang berani dan kelembutan susu premium.',
+        price: '35k',
+        image: images.icedLatte,
+        recommendation: true,
+      },
+      {
+        name: 'Senopati Matcha',
+        description:
+          'Matcha premium dengan latte art cantik, memberikan ketenangan di tengah hiruk pikuk Senopati.',
+        price: '38k',
+        image: images.matcha,
+      },
+    ],
+  },
+  {
+    id: 'kue-roti',
+    title: 'Kue & Roti',
+    layout: 'compact',
+    items: [
+      {
+        name: 'Butter Croissant',
+        description: 'Renyah di luar, lembut di dalam dengan aroma mentega premium.',
+        price: '22k',
+        image: images.croissant,
+      },
+      {
+        name: 'Lava Cake',
+        description: 'Cokelat leleh hangat disajikan dengan es krim vanilla yang lembut.',
+        price: '40k',
+        image: images.lavaCake,
+      },
+    ],
+  },
+  {
+    id: 'makanan-utama',
+    title: 'Makanan Utama',
+    layout: 'horizontal',
+    items: [
+      {
+        name: 'Truffle Fries',
+        description:
+          'Kentang goreng renyah bermandikan minyak truffle premium, disajikan dengan taburan keju parmesan dan parsley segar.',
+        price: '45k',
+        image: images.truffleFries,
+      },
+      {
+        name: 'Avocado Toast',
+        description: 'Roti sourdough dengan alpukat hancur dan telur apung yang sempurna.',
+        price: '55k',
+        image: images.avocadoToast,
+      },
+    ],
+  },
+]
+
+export const galleryImages = [
+  { src: images.senopati, alt: 'Jantung Kota Senopati' },
+  { src: images.hero, alt: 'Interior Cafe Babe' },
+  { src: images.icedLatte, alt: 'Signature Iced Latte' },
+  { src: images.matchaLatteArt, alt: 'Matcha Latte Art' },
+  { src: images.botanicalInterior, alt: 'Botanical Cafe Interior' },
+  { src: images.coffeeCroissant, alt: 'Coffee and Croissant' },
+]

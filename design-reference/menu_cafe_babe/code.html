@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Menu - Cafe Babe</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Lexend:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#404943",
+                        "surface-bright": "#fff8f6",
+                        "surface-container-high": "#ffe2db",
+                        "surface-container": "#ffe9e4",
+                        "surface-variant": "#fadcd5",
+                        "inverse-surface": "#3e2c28",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#99d3b1",
+                        "on-tertiary-fixed-variant": "#3f4949",
+                        "on-tertiary-container": "#a6b0b0",
+                        "surface": "#fff8f6",
+                        "tertiary-fixed": "#dae4e4",
+                        "primary": "#00331e",
+                        "on-primary-container": "#80ba99",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-primary": "#99d3b1",
+                        "on-secondary-fixed-variant": "#00522b",
+                        "on-tertiary-fixed": "#141d1e",
+                        "surface-container-low": "#fff1ed",
+                        "on-surface": "#271814",
+                        "surface-tint": "#31694c",
+                        "primary-fixed": "#b4f0cc",
+                        "inverse-on-surface": "#ffede9",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#3a4344",
+                        "on-primary-fixed": "#002112",
+                        "surface-container-highest": "#fadcd5",
+                        "surface-dim": "#f1d4cd",
+                        "secondary-fixed": "#98f7b5",
+                        "secondary-fixed-dim": "#7cda9b",
+                        "error-container": "#ffdad6",
+                        "secondary": "#006d3b",
+                        "outline-variant": "#c0c9c1",
+                        "secondary-container": "#98f7b5",
+                        "on-secondary": "#ffffff",
+                        "outline": "#707972",
+                        "on-secondary-fixed": "#00210e",
+                        "on-secondary-container": "#01743f",
+                        "primary-container": "#0e4b31",
+                        "tertiary-fixed-dim": "#bec8c8",
+                        "on-primary-fixed-variant": "#165036",
+                        "background": "#fff8f6",
+                        "on-background": "#271814",
+                        "tertiary": "#242d2d",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xs": "4px",
+                        "lg": "48px",
+                        "margin-mobile": "16px",
+                        "base": "8px",
+                        "xl": "80px",
+                        "margin-desktop": "64px",
+                        "md": "24px",
+                        "sm": "12px",
+                        "gutter": "20px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "headline-md": ["Lexend"],
+                        "display-lg": ["Lexend"],
+                        "display-lg-mobile": ["Lexend"],
+                        "headline-sm": ["Lexend"],
+                        "label-sm": ["Be Vietnam Pro"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "label-md": ["Be Vietnam Pro"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased pt-[88px]">
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(14,75,49,0.08)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<div class="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed-dim">
+                Babe
+            </div>
+<ul class="hidden md:flex gap-md font-label-md text-label-md items-center">
+<li>
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg transition-all px-3 py-2" href="#">Home</a>
+</li>
+<li>
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-t-lg transition-all px-3 py-2" href="#">Menu</a>
+</li>
+<li>
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg transition-all px-3 py-2" href="#">About</a>
+</li>
+<li>
+<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:bg-primary-container/10 dark:hover:bg-primary-container/20 rounded-lg transition-all px-3 py-2" href="#">Gallery</a>
+</li>
+</ul>
+<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded-full hover:bg-primary/90 scale-95 active:opacity-80 transition-transform shadow-sm">
+                Pesan Sekarang
+            </button>
+</div>
+</nav>
+<header class="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Background" class="w-full h-full object-cover opacity-80 mix-blend-multiply filter contrast-125" data-alt="A beautifully composed, high-end lifestyle shot of a modern cafe interior in Jakarta, viewed from a slightly low angle. The scene features lush, oversized tropical indoor plants with deep green leaves framing the edges of the composition. Soft, diffused daylight filters through large glasspanes, creating a serene, glassmorphic glow. In the blurred background, a sleek espresso machine and minimalist white marble counters are subtly visible, establishing a premium, vibrant, and sophisticated botanical sanctuary mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVMY8AKzwXqtmc6BMdrGMpZSXeOeuJmoYNoXkJZiPvml1byiZCy6R4Qgzvk44Ba-sDnNG-a_uzMQCsX1u-wRhZIS-thrDaOaXLFkPDSjF0I0f4-Bnr7e9b0HgmP1HZuH6Q50i511AMnWyXz_RElU4H1i0P-8g7d6sh6X2HL1uhEQSojytTlW-p1rOoPdZjp3jcJ1_Hu5ho9DhorpEFmH0_ms3AVz_MNR39Kq5KOXKTrzVU_i9fO0RseB49oNkmV0nuTiuPqOTgTJ0"/>
+<div class="absolute inset-0 bg-surface/40 backdrop-blur-sm"></div>
+</div>
+<div class="relative z-10 text-center px-margin-mobile">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-sm">Koleksi Rasa Babe</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Temukan perpaduan harmoni antara energi metropolitan Jakarta dan ketenangan sanctuary botani dalam setiap sajian kami.</p>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-xl">
+<div class="flex overflow-x-auto gap-sm pb-md mb-lg scrollbar-hide snap-x">
+<button class="snap-start flex-shrink-0 px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap transition-transform hover:scale-105">Semua Menu</button>
+<button class="snap-start flex-shrink-0 px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all hover:bg-primary/10 hover:text-primary">Kopi</button>
+<button class="snap-start flex-shrink-0 px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all hover:bg-primary/10 hover:text-primary">Minuman Khas</button>
+<button class="snap-start flex-shrink-0 px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all hover:bg-primary/10 hover:text-primary">Kue &amp; Roti</button>
+<button class="snap-start flex-shrink-0 px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all hover:bg-primary/10 hover:text-primary">Makanan Utama</button>
+</div>
+<section class="mb-xl">
+<div class="flex items-center gap-sm mb-lg">
+<h2 class="font-headline-md text-headline-md text-primary">Kopi (Berbasis Espresso)</h2>
+<div class="flex-grow h-px bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-md md:gap-lg">
+<article class="bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex flex-col group hover:-translate-y-2 transition-all duration-300 border border-transparent hover:border-primary/10">
+<div class="aspect-[4/3] overflow-hidden relative">
+<img alt="Kopi Susu Gula Aren" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A close-up, high-resolution lifestyle photograph of a classic iced Kopi Susu Gula Aren layered elegantly in a tall, ridged glass. The drink sits on a pristine white marble cafe table. Dark, rich espresso floats atop creamy white milk and a thick layer of dark brown palm sugar syrup at the bottom. Condensation drips down the frosty glass. The lighting is bright and natural, casting soft, cool shadows that emphasize the glassmorphic, premium aesthetic of a modern Jakarta sanctuary cafe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZgO55FApPGwN5Tp7SZXUGoWjvaUSi9Y6k3aTD2kh0urFKxEeljjhSkFyq--uHNAr-udA4d2K70-wNNjdnm7FmcTZliNB6MjSbwoVeSPVbEAO8qetk-vYB7SxKYrbUuWm4L864frgX28g5o8-hvZFXMfRig2Px6bZe9UJuR-bXivdhsZIXyuSOBjdZ8bhvT00dhaftoJ-MtgeEe8jrNgUxGoh6JKNFN8P4y67QtIWRfHsv2uPA8yCfehbz57Warp6-2fz7az3Fmag"/>
+<div class="absolute top-sm right-sm bg-surface-bright/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary shadow-sm">
+                            Bestseller
+                        </div>
+</div>
+<div class="p-md flex flex-col flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-xs">Kopi Susu Gula Aren</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow mb-md">Perpaduan espresso pekat dengan manisnya gula aren murni lokal, menghasilkan tekstur creamy yang sempurna.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="font-headline-sm text-headline-sm text-primary">25k</span>
+<button aria-label="Tambah Kopi Susu Gula Aren" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</article>
+<article class="bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex flex-col group hover:-translate-y-2 transition-all duration-300 border border-transparent hover:border-primary/10">
+<div class="aspect-[4/3] overflow-hidden relative">
+<img alt="Americano" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A minimalist, top-down shot of a steaming hot Americano served in a matte, dark green ceramic mug matching the brand's primary color. The mug rests on an unglazed terracotta saucer on a clean white table. Subtle tendrils of steam rise against a soft, out-of-focus background of lush indoor tropical foliage. The lighting is high-key and crisp, emphasizing the rich, dark crema of the coffee and creating a mood of quiet morning sophistication in a modern cafe environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCLJ7oxEjxfmpVm_6tscgWWxPYnR0RsIfN1VwlAOq5O1yT9gzpILj26mOLxdKo6VNPKhidyHTizB-eC_K4Caa6M_8W9BOcNN5qM1zyl2SoeAt0MoXiVMU6xZ41d6It3qZ6uru0rAhHMFsxUZEybQmn0rM6NrwkV_kF9HhOcY1B9hCnzu9Qa2yMY94WhtUANfqcxN1u8dOWKFqeEkvGwF7HlJUcyo_e-2UvJv1Lgyf6lBLNeOEzcgBwxZ1HrRNbx6bUy8oh2b9mfC0"/>
+</div>
+<div class="p-md flex flex-col flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-xs">Classic Americano</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow mb-md">Ekstraksi espresso ganda murni yang dipadukan dengan air panas, menonjolkan aroma biji kopi pilihan.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="font-headline-sm text-headline-sm text-primary">20k</span>
+<button aria-label="Tambah Classic Americano" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="mb-xl">
+<div class="flex items-center gap-sm mb-lg">
+<h2 class="font-headline-md text-headline-md text-primary">Minuman Khas</h2>
+<div class="flex-grow h-px bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<article class="bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex flex-col md:flex-row group hover:shadow-lg transition-all duration-300 border border-transparent hover:border-secondary/20">
+<div class="w-full md:w-2/5 relative overflow-hidden bg-surface-variant">
+<img alt="Signature Iced Latte" class="w-full h-full object-cover min-h-[250px] group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAki69zk0GJxKbmQc9FV9eW3VPuNMyGSUyjSKFYtHiYx-Jvu-1xYpaZDUymPiuslfSdl7Br7_D3n2mMjMMi1zla3fxx0cMKFa7BajnUgOpa8ObDu64RrHTVHedzG0FX_bMm-Mc0PKYb3K3u5qNridOmbF34JqUSQ714DXap9RIUfY6TEWpRFlWTy-AHcu-v2qTEtKpBpy-ozWbWpwOmmNobkH3yY1pw6mGtgOu-2mkBX2kQO2YkOEUFc55EcM1a7bPIvgkA2K5e8mo"/>
+</div>
+<div class="w-full md:w-3/5 p-md md:p-lg flex flex-col justify-center">
+<div class="inline-flex items-center gap-xs px-3 py-1 bg-secondary/10 text-secondary rounded-full font-label-sm text-label-sm w-fit mb-sm">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+                            Chef's Recommendation
+                        </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-sm">Signature Iced Latte</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-md">Susu segar dingin yang dipadukan dengan sentuhan espresso blend khas Babe. Memberikan keseimbangan sempurna antara rasa kopi yang berani dan kelembutan susu premium.</p>
+<div class="flex items-center gap-md mt-auto">
+<span class="font-display-lg-mobile text-display-lg-mobile text-primary">35k</span>
+<button class="flex-grow bg-surface border border-outline bg-opacity-50 backdrop-blur-sm text-primary font-label-md text-label-md px-6 py-3 rounded-full hover:bg-primary hover:text-on-primary hover:border-transparent transition-all shadow-sm">
+                                Tambah ke Pesanan
+                            </button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="mb-xl">
+<div class="flex items-center gap-sm mb-lg">
+<h2 class="font-headline-md text-headline-md text-primary">Kue &amp; Roti</h2>
+<div class="flex-grow h-px bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-sm md:gap-md">
+<article class="bg-surface-container-lowest rounded-[24px] p-sm shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex flex-col group hover:-translate-y-1 transition-transform duration-300">
+<div class="aspect-square overflow-hidden rounded-xl mb-sm relative">
+<img alt="Butter Croissant" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A pristine top-down shot of a golden-brown, perfectly flaky Butter Croissant resting directly on a bright white marble table next to a folded linen napkin. The pastry showcases intricate, visible layers of lamination. The lighting is soft and airy, mimicking indirect morning sunlight filtering through greenhouse glasspanes. The mood is modern, crisp, and highly appetizing, fitting a premium, minimalist slow-living cafe brand aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDi6GCmIRGsxzbjDBm-4xLM5_Wwe_h-Rur4Kz43-KFKUcHTTLhWgEzqHTrMVvD3vDAITRkwBBIFD5NktVWKr6efIqmu6-uomHMXYswpwlFOrU8N2we4DoR3bmIzXKba1T22zODfyTodimD2jjwAdVjJiqQEz-i8YCav4pafHj0LDmufVfGUZ24pBjDdW3EQ8ssc8YkzByEVJR8H-wnIqeAa_S26wIPO-voo9oBrPl4Shj9ztjLJ9gauG4datS2UmHB3WQP9hcTEUfE"/>
+</div>
+<div class="flex flex-col flex-grow px-2 pb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-xs">Butter Croissant</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow mb-sm line-clamp-2">Renyah di luar, lembut di dalam dengan aroma mentega premium.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="font-headline-sm text-headline-sm text-primary">22k</span>
+<button aria-label="Tambah Butter Croissant" class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="mb-xl">
+<div class="flex items-center gap-sm mb-lg">
+<h2 class="font-headline-md text-headline-md text-primary">Makanan Utama</h2>
+<div class="flex-grow h-px bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<article class="bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-[0_8px_32px_0_rgba(14,75,49,0.08)] flex group">
+<div class="w-1/3 relative overflow-hidden">
+<img alt="Truffle Fries" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A stylized, close-up food photography shot of golden Truffle Fries overflowing from a modern, dark green ceramic bowl. The fries are lightly dusted with grated parmesan cheese and finely chopped parsley. They sit on a clean, light beige wooden table surface. The lighting is dramatic yet soft, highlighting the crispy texture of the fries and the subtle sheen of the truffle oil. The overall aesthetic is gourmet, appetizing, and fits a high-end corporate cafe identity with subtle botanical green accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsKcM0fXZsCxbbiqhk7tcTNhQ8s4euWAndKYhr4crxuA0J2-j0PpR_OXsPS1e250_XTqCibQB5CxehVP2jNSPlpL6iwbcSrYbqVKXzTsts0epBh9bjlJZFlnyoc_LNKvAb4AqdIBjuUJ28Pt8D6udkz24AwfkFdhUsuAv4O5y45_DgSL3iioazfdqZfmlG0sePIc-Y06cQFZ6005JE0IYYH2nDjemE7SoL0Max3HROEmM9_uxmaUKfWJXG7pWu8Js8xr2XWHqbDxs"/>
+</div>
+<div class="w-2/3 p-md flex flex-col justify-center bg-surface-container-lowest">
+<div class="flex justify-between items-start mb-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Truffle Fries</h3>
+<span class="font-headline-sm text-headline-sm text-primary">45k</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-md">Kentang goreng renyah bermandikan minyak truffle premium, disajikan dengan taburan keju parmesan dan parsley segar.</p>
+<button class="mt-auto w-fit px-4 py-2 border border-primary/20 text-primary font-label-md text-label-md rounded-full hover:bg-primary/5 transition-colors">
+                            Tambah
+                        </button>
+</div>
+</article>
+</div>
+</section>
+</main>
+<footer class="bg-surface-container-highest dark:bg-inverse-surface border-t border-outline-variant/30 w-full rounded-t-[40px] mt-xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-xl max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-xl">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed-dim mb-md">
+                    Babe
+                </div>
+<p class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-container mb-md">
+                    © 2024 Babe Jakarta. Senopati's Finest Botanical Sanctuary.
+                </p>
+</div>
+<div class="col-span-1 md:col-span-3 grid grid-cols-2 sm:grid-cols-4 gap-md">
+<div class="flex flex-col gap-sm">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container opacity-80 hover:opacity-100 hover:text-secondary dark:hover:text-secondary-fixed transition-opacity transition-colors" href="#">Instagram</a>
+</div>
+<div class="flex flex-col gap-sm">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container opacity-80 hover:opacity-100 hover:text-secondary dark:hover:text-secondary-fixed transition-opacity transition-colors" href="#">Location</a>
+</div>
+<div class="flex flex-col gap-sm">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container opacity-80 hover:opacity-100 hover:text-secondary dark:hover:text-secondary-fixed transition-opacity transition-colors" href="#">Opening Hours</a>
+</div>
+<div class="flex flex-col gap-sm">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container opacity-80 hover:opacity-100 hover:text-secondary dark:hover:text-secondary-fixed transition-opacity transition-colors" href="#">Contact Us</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
