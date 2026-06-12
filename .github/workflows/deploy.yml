@@ -1,9 +1,8 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
-      - main  # Ganti jadi master jika branch utama di GitHub kamu namanya master
+      - main
 
 permissions:
   contents: write
@@ -11,6 +10,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -32,3 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: www.example.com # Optional: for custom domain
