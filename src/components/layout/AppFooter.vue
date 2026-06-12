@@ -101,7 +101,7 @@ defineProps({
     </div>
     <div class="border-t border-outline-variant/20 py-6 text-center">
       <p class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-container opacity-80">
-        &copy; 2024 Babe Jakarta. Senopati's Finest Botanical Sanctuary.
+        &copy; 2024 Babe Jakarta. Blok M's Finest Botanical Sanctuary.
       </p>
     </div>
   </footer>
@@ -119,7 +119,7 @@ defineProps({
           Babe
         </div>
         <p class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-container mb-md">
-          &copy; 2024 Babe Jakarta. Senopati's Finest Botanical Sanctuary.
+          &copy; 2024 Babe Jakarta. blok m's Finest Botanical Sanctuary.
         </p>
       </div>
       <div class="col-span-1 md:col-span-3 grid grid-cols-2 sm:grid-cols-4 gap-md">

@@ -11,7 +11,7 @@ import { images } from '@/data/content'
         Cerita Kami &amp; Lokasi
       </h1>
       <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-        Menemukan oase ketenangan di tengah hiruk-pikuk Senopati. Babe Jakarta adalah tempat di
+        Menemukan oase ketenangan di tengah hiruk-pikuk Blok M. Babe Jakarta adalah tempat di
         mana kopi berkualitas bertemu dengan suasana botani yang menyegarkan.
       </p>
     </section>
@@ -26,9 +26,9 @@ import { images } from '@/data/content'
           class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply"
         />
         <div class="absolute bottom-md left-md right-md glass-panel p-md rounded-xl">
-          <h3 class="font-headline-sm text-headline-sm text-primary mb-xs">Senopati Sanctuary</h3>
+          <h3 class="font-headline-sm text-headline-sm text-primary mb-xs">Blok M</h3>
           <p class="font-body-md text-body-md text-on-surface">
-            Jl. Senopati Raya No. 45, Kebayoran Baru, Jakarta Selatan, 12190
+            Jl. Blok M Raya No. 45, Jakarta Selatan, 12190
           </p>
         </div>
       </div>
@@ -67,7 +67,7 @@ import { images } from '@/data/content'
         >
           <div>
             <p class="font-label-md text-label-md text-on-primary/80 mb-xs">Ikuti Perjalanan Kami</p>
-            <h3 class="font-headline-sm text-headline-sm font-bold">@BabeJakarta</h3>
+            <h3 class="font-headline-sm text-headline-sm font-bold">@kafebabe26</h3>
           </div>
           <span
             class="material-symbols-outlined text-4xl group-hover:translate-x-1 transition-transform"

@@ -16,12 +16,12 @@ import { images } from '@/data/content'
         <span
           class="inline-block px-4 py-1.5 mb-6 rounded-full bg-primary-container/10 text-primary font-label-sm text-label-sm uppercase tracking-wider backdrop-blur-md"
         >
-          Est. 2024 • Senopati
+          Est. 2026 • Blok M
         </span>
         <h1
           class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6 leading-tight"
         >
-          Tempat Pelarian Urban di Senopati
+          Tempat Pelarian Urban di BlokM
         </h1>
         <p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-2xl mx-auto">
           Nikmati kopi premium di tengah kesejukan hutan kota Jakarta. Ruang sempurna untuk
