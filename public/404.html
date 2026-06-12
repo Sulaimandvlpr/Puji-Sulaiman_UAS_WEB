@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Ambil jalur halaman yang diakses (misal: /menu atau /tentang)
+      const path = window.location.pathname.slice(1);
+      if (path) {
+        // Alihkan kembali ke halaman utama dengan membawa data rute tersebut
+        window.location.replace(
+          window.location.origin + '/' + path.split('/')[0] + '/?redirect=' + path
+        );
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
