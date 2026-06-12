@@ -1,7 +1,8 @@
-import { createRouter, createWebHashHistory } from 'vue-router' // 1. DIUBAH DI SINI
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL), // 2. DIUBAH DI SINI
+  // Kosongkan saja di dalam kurungnya agar otomatis mendeteksi rute hash dasar
+  history: createWebHashHistory(), 
   scrollBehavior() {
     return { top: 0 }
   },
@@ -15,38 +16,8 @@ const router = createRouter({
         footerVariant: 'full',
       },
     },
-    {
-      path: '/menu',
-      name: 'menu',
-      component: () => import('@/views/MenuView.vue'),
-      meta: {
-        title: 'Menu - Cafe Babe',
-        footerVariant: 'compact',
-      },
-    },
-    {
-      path: '/tentang',
-      name: 'about',
-      component: () => import('@/views/AboutView.vue'),
-      meta: {
-        title: 'Contact & About Us - Babe Jakarta',
-        footerVariant: 'about',
-      },
-    },
-    {
-      path: '/galeri',
-      name: 'gallery',
-      component: () => import('@/views/GalleryView.vue'),
-      meta: {
-        title: 'Sudut Estetik Babe - Botanica Coffee',
-        footerVariant: 'gallery',
-      },
-    },
-  ],
-})
-
-router.afterEach((to) => {
-  document.title = to.meta.title ?? 'Babe Jakarta'
+    // ... rute lainnya biarkan saja
+  ]
 })
 
 export default router
